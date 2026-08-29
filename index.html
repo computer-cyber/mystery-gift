@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Private Surprise 🔐</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- PASSWORD SCREEN -->
+
+        <section id="password-screen">
+
+            <p class="small-text">
+                🔐 PRIVATE SURPRISE
+            </p>
+
+            <h1>
+                This Is For You 👀
+            </h1>
+
+            <div class="lock-icon">
+                🔒
+            </div>
+
+            <p class="message">
+                Someone created a secret surprise
+                especially for you.
+            </p>
+
+            <p class="question">
+                Enter the secret password to continue.
+            </p>
+
+            <input
+                type="password"
+                id="password-input"
+                placeholder="Enter password"
+                autocomplete="off"
+            >
+
+            <button id="password-btn">
+                UNLOCK 🔓
+            </button>
+
+            <p id="password-error"></p>
+
+        </section>
+
+
+        <!-- ORIGINAL SURPRISE -->
+
+        <section id="surprise-screen" style="display: none;">
+
+            <p class="small-text">
+                ✨ SOMETHING SPECIAL IS WAITING ✨
+            </p>
+
+            <h1>
+                A Mystery For You
+            </h1>
+
+            <div class="gift">
+                🎁
+            </div>
+
+            <p class="message">
+                Someone prepared a little surprise for you...
+            </p>
+
+            <p class="question">
+                Do you dare to open it? 👀
+            </p>
+
+            <button id="open-btn">
+                OPEN THE SURPRISE 🎁
+            </button>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
